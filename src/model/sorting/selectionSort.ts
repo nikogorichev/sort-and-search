@@ -2,7 +2,7 @@ export function selectionSort<T>(
   list: Array<T>,
   key: keyof T,
   ASC: boolean = true
-): T[] {
+): Array<T> {
   const result = [...list];
   const n = result.length;
 
