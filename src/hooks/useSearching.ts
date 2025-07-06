@@ -1,5 +1,5 @@
 import { useCallback } from "react";
-import { binarySearch, linearSearch } from "../model/searching";
+import { binarySearch, linearSearch } from "../model";
 
 type SearchMethod = "linear" | "binary";
 

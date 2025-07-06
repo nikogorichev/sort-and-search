@@ -4,7 +4,7 @@ import {
   insertionSort,
   mergeSort,
   selectionSort,
-} from "../model/sorting";
+} from "../model";
 
 type SortMethod = "merge" | "bubble" | "insertion" | "selection";
 
